@@ -37,72 +37,84 @@ the Nation and the World">
 
     return t;
   }(document, "script", "twitter-wjs"));</script>
+  
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     
+   <link rel="stylesheet" type="text/css" href="styles.css">
+  
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+   
+   <link href="https://fonts.googleapis.com/css?family=Kite+One" rel="stylesheet"> 
 </head>
 
 <body>
   <header>
-    <img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/header_logo.png">
+    <img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/header_logo.png" alt="FESC logo">
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="outreach.html">Outreach</a></li>
-        <li><a href="#">User Facilities</a></li>
+      <ul class="nav nav-pills nav-fill">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="outreach.html">Outreach</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">User Facilities</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <h2>Facilities and Resources</h2>
-    
-    <h3>FESC Institutions</h3>
-    <ul>
-      <li>
-        <a href="http://floridaenergy.ufl.edu/wp-content/uploads/University-of-Central-Florida3.pdf">
-          <img src="images/UCF_logo.png" alt="University of Central Florida">
-        </a>
-      </li>
-      <li>
-        <a href="http://floridaenergy.ufl.edu/wp-content/uploads/uf-facilities1.pdf">
-          <img src="images/uf_vertical_signature.png" alt="University of Florida">
-        </a>
-      </li>
-      <li>
-        <a href="http://floridaenergy.ufl.edu/wp-content/uploads/UNIVERSITY-OF-SOUTH-FLORIDA1.pdf">
-          <img src="images/usf-v-green.jpg" alt="University of South Florida">
-        </a>
-      </li>
-    </ul>
-    
-    <h3>FESC User Facilities</h3>
-    <ul>
-      <li>
-        <a href="http://floridaenergy.ufl.edu/wp-content/uploads/FAU_Facilities.pdf">Florida Atlantic University - Boca Raton, FL</a>
-      </li>
-      <li>
-        <a href="http://floridaenergy.ufl.edu/wp-content/uploads/FIU_Facilities.pdf">Florida International University - Miami, FL</a>
-      </li>
-      <li>
-        <a href="http://floridaenergy.ufl.edu/wp-content/uploads/FSU-Facilities.pdf">Florida State University - Tallahassee, FL</a>
-      </li>
-      <li>
-        <a href="http://floridaenergy.ufl.edu/wp-content/uploads/FSEC-Facilities.pdf">Florida Solar Energy Center - Cocoa, FL</a>
-      </li>
-      <li>
-        <a href="http://floridaenergy.ufl.edu/wp-content/uploads/UCF-Facilities.pdf">University of Central Florida - Orlando, FL</a>
-      </li>
-      <li>
-        <a href="http://floridaenergy.ufl.edu/wp-content/uploads/UF-Facilities.pdf">University of Florida - Gainsville, FL</a>
-      </li>
-      <li>
-        <a href="http://floridaenergy.ufl.edu/wp-content/uploads/UF-Facilities.pdf">University of Florida - Perry, FL</a>
-      </li>
-      <li>
-        <a href="http://floridaenergy.ufl.edu/wp-content/uploads/USF-Facilities.pdf">University of South Florida - Tampa, FL</a>
-      </li>
-      <li>
-        <a href="http://floridaenergy.ufl.edu/wp-content/uploads/Florida-Institute-Facilities.pdf">Florida Institute of Technology - Melbourne, FL</a>
-      </li>
-    </ul>
-  
+    <div class="row">
+      <div class="col-md">
+        <h3>FESC Institutions</h3>
+        <ul class="uni-li">
+          <li>
+            <a href="http://floridaenergy.ufl.edu/wp-content/uploads/University-of-Central-Florida3.pdf">
+              <img class="uni-logo" src="images/UCF_logo.png" alt="University of Central Florida">
+            </a>
+          </li>
+          <li>
+            <a href="http://floridaenergy.ufl.edu/wp-content/uploads/uf-facilities1.pdf">
+              <img class="uni-logo" src="images/uf_vertical_signature.png" alt="University of Florida">
+            </a>
+          </li>
+          <li>
+            <a href="http://floridaenergy.ufl.edu/wp-content/uploads/UNIVERSITY-OF-SOUTH-FLORIDA1.pdf">
+              <img class="uni-logo" src="images/usf-v-green.jpg" alt="University of South Florida">
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-md">
+        <h3>FESC User Facilities</h3>
+        <ul class="uni-li">
+          <li>
+            <a href="http://floridaenergy.ufl.edu/wp-content/uploads/FAU_Facilities.pdf">Florida Atlantic University - Boca Raton, FL</a>
+          </li>
+          <li>
+            <a href="http://floridaenergy.ufl.edu/wp-content/uploads/FIU_Facilities.pdf">Florida International University - Miami, FL</a>
+          </li>
+          <li>
+            <a href="http://floridaenergy.ufl.edu/wp-content/uploads/FSU-Facilities.pdf">Florida State University - Tallahassee, FL</a>
+          </li>
+          <li>
+            <a href="http://floridaenergy.ufl.edu/wp-content/uploads/FSEC-Facilities.pdf">Florida Solar Energy Center - Cocoa, FL</a>
+          </li>
+          <li>
+            <a href="http://floridaenergy.ufl.edu/wp-content/uploads/UCF-Facilities.pdf">University of Central Florida - Orlando, FL</a>
+          </li>
+          <li>
+            <a href="http://floridaenergy.ufl.edu/wp-content/uploads/UF-Facilities.pdf">University of Florida - Gainsville, FL</a>
+          </li>
+          <li>
+            <a href="http://floridaenergy.ufl.edu/wp-content/uploads/UF-Facilities.pdf">University of Florida - Perry, FL</a>
+          </li>
+          <li>
+            <a href="http://floridaenergy.ufl.edu/wp-content/uploads/USF-Facilities.pdf">University of South Florida - Tampa, FL</a>
+          </li>
+          <li>
+            <a href="http://floridaenergy.ufl.edu/wp-content/uploads/Florida-Institute-Facilities.pdf">Florida Institute of Technology - Melbourne, FL</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </main>
   
   <footer>
@@ -114,4 +126,8 @@ the Nation and the World">
     <script id="tumblr-js" async src="https://assets.tumblr.com/share-button.js"></script>
   </footer>
   
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+</html>

@@ -1,0 +1,25 @@
+nav {
+  background-color: #364976;
+  color: #FFFBF1;
+  font-family: 'Kite One', sans-serif; }
+
+h2 {
+  font-family: 'Kite One', sans-serif;
+  color: #249241; }
+
+h3 {
+  font-family: 'Kite One', sans-serif;
+  color: #249241; }
+
+.uni-li {
+  list-style: none; }
+
+.uni-logo {
+  height: 150px;
+  float: left; }
+
+footer {
+  text-align: center;
+  background-color: #2B2829; }
+
+/*# sourceMappingURL=styles.css.map */

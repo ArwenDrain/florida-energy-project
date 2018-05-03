@@ -1,0 +1,43 @@
+$accent: #249241;
+$brand: #364976;
+$highlight: #2B2829;
+$default-margin: ;
+
+nav {
+  background-color: $brand;
+  color: indianred;
+  font-family: 'Kite One', sans-serif;
+}
+
+a .nav-link {
+  color: #FFFBF1;
+  &:link {
+    color: lightgrey;
+  }
+  &:hover, &:focus {
+     background-color: #FFFBF1;
+  }
+}
+
+h2 {
+  font-family: 'Kite One', sans-serif;
+  color: $accent;
+}
+
+h3 {
+  font-family: 'Kite One', sans-serif;
+  color: $accent;
+}
+
+.uni-li {
+  list-style: none;
+}
+.uni-logo {
+  height: 150px;
+  float: left;
+}
+
+footer {
+  text-align: center;
+  background-color: $highlight;
+}
