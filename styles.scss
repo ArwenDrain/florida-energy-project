@@ -1,21 +1,13 @@
 $accent: #249241;
-$brand: #364976;
+$brand: #0055A5;
 $highlight: #2B2829;
-$default-margin: ;
 
-nav {
-  background-color: $brand;
-  color: indianred;
-  font-family: 'Kite One', sans-serif;
-}
 
-a .nav-link {
-  color: #FFFBF1;
-  &:link {
-    color: lightgrey;
-  }
+.nav-pills li a {
+  font-family: 'Kite One', sans-serif; 
   &:hover, &:focus {
-     background-color: #FFFBF1;
+    background-color: $brand;
+    color:  #FFFBF1;
   }
 }
 

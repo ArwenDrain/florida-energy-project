@@ -1,7 +1,8 @@
-nav {
-  background-color: #364976;
-  color: #FFFBF1;
+.nav-pills li a {
   font-family: 'Kite One', sans-serif; }
+  .nav-pills li a:hover, .nav-pills li a:focus {
+    background-color: #0055A5;
+    color: #FFFBF1; }
 
 h2 {
   font-family: 'Kite One', sans-serif;
