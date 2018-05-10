@@ -1,26 +1,58 @@
+nav {
+  border-bottom: solid;
+  border-color: #ceb36c; }
+
 .nav-pills li a {
   font-family: 'Kite One', sans-serif; }
   .nav-pills li a:hover, .nav-pills li a:focus {
-    background-color: #0055A5;
+    background-color: #364976;
     color: #FFFBF1; }
+
+main {
+  margin: 2rem; }
 
 h2 {
   font-family: 'Kite One', sans-serif;
-  color: #249241; }
+  color: #249241;
+  margin: 1rem; }
 
 h3 {
   font-family: 'Kite One', sans-serif;
-  color: #249241; }
+  color: #249241;
+  margin: 1rem; }
+
+p {
+  margin: 1rem;
+  padding: 1rem; }
 
 .uni-li {
   list-style: none; }
 
 .uni-logo {
   height: 150px;
+  padding: 1rem;
   float: left; }
+  .uni-logo:hover {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1); }
+
+.goals-li {
+  list-style: circle; }
+
+button {
+  font-family: 'Kite One', sans-serif;
+  background-color: #364976;
+  color: #FFFBF1;
+  margin: 1rem; }
+  button:hover {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1); }
 
 footer {
+  border-top: solid;
+  border-color: #ceb36c;
   text-align: center;
-  background-color: #2B2829; }
+  background-color: #2B2829;
+  padding: 2rem; }
 
 /*# sourceMappingURL=styles.css.map */

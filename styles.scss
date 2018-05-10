@@ -1,35 +1,71 @@
 $accent: #249241;
-$brand: #0055A5;
+$brand: #364976;
 $highlight: #2B2829;
 
-
+nav {
+  border-bottom: solid;
+  border-color: #ceb36c;
+}
 .nav-pills li a {
-  font-family: 'Kite One', sans-serif; 
+  font-family: 'Kite One', sans-serif;
   &:hover, &:focus {
     background-color: $brand;
-    color:  #FFFBF1;
+    color: #FFFBF1;
   }
+}
+
+main {
+  margin: 2rem;
 }
 
 h2 {
   font-family: 'Kite One', sans-serif;
   color: $accent;
+  margin: 1rem;
 }
 
 h3 {
   font-family: 'Kite One', sans-serif;
   color: $accent;
+  margin: 1rem;
+}
+
+p {
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .uni-li {
   list-style: none;
 }
+
 .uni-logo {
   height: 150px;
+  padding: 1rem;
   float: left;
+  &:hover {
+    transform: scale(1.1,1.1);
+  }
+}
+
+.goals-li {
+  list-style: circle;
+}
+
+button {
+  font-family: 'Kite One', sans-serif;
+  background-color: $brand;
+  color: #FFFBF1;
+  margin: 1rem;
+  &:hover {
+  transform: scale(1.1,1.1);
+  }
 }
 
 footer {
+  border-top: solid;
+  border-color: #ceb36c;
   text-align: center;
   background-color: $highlight;
+  padding: 2rem;
 }
