@@ -48,6 +48,14 @@ button {
     -webkit-transform: scale(1.1, 1.1);
             transform: scale(1.1, 1.1); }
 
+#chart_div {
+  width: 600px;
+  height: 400px; }
+
+#chart_div2 {
+  width: 600px;
+  height: 400px; }
+
 footer {
   border-top: solid;
   border-color: #ceb36c;

@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>FESC</title>
+  <title>Data</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-<!-- Facebook tags -->
+<!--  Google Charts -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript" src="charts.js"></script>
+
+  <!-- Facebook tags -->
   <meta property="og:title" content="Florida Energy Systems Consortium">
   <meta property="og:description" content="FESC Bringing Energy Solutions to Florida,
 the Nation and the World">
@@ -45,8 +49,7 @@ the Nation and the World">
   
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
    
-   <link href="https://fonts.googleapis.com/css?family=Kite+One" rel="stylesheet"> 
-
+   <link href="https://fonts.googleapis.com/css?family=Kite+One" rel="stylesheet">  
 </head>
 
 <body>
@@ -54,48 +57,28 @@ the Nation and the World">
     <img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/header_logo.png" alt="FESC logo">
     <nav>
       <ul class="nav nav-pills nav-fill">
-        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="outreach.html">Outreach</a></li>
         <li class="nav-item"><a class="nav-link" href="facilities.html">User Facilities</a></li>
-        <li class="nav-item"><a class="nav-link" href="data.html">Data</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">Data</a></li>
       </ul>
     </nav>
   </header>
   
   <main>
-    <div class="row">
-      <div class="col-md">
-        <h2>FESC Bringing Energy Solutions to Florida, the Nation and the World</h2>
-    
-        <p>
-          The Florida Energy Systems Consortium (FESC) was created by the Florida State government to promote collaboration among energy experts at its 12 supported universities to share energy-related expertise. The consortium assists the state in the development and implementation of an environmentally compatible, sustainable, and efficient energy strategic plan. The Consortium was charged to ‘perform research and development on innovative energy systems that lead to alternative energy strategies, improved energy efficiencies, and expanded economic development for the state‘. The Consortium’s research strategy is an energy systems approach to identify innovation opportunities, prepare an energy workforce, and guide economic development.
-        </p>
-        <p>
-          Through collaborative research and development, the goal of the consortium is to become a world leader in energy research, education, technology, and energy systems analysis. In so doing, the consortium shall:
-        </p>
-        <ul class="goals-li">
-          <li>Coordinate and initiate increased collaborative interdisciplinary energy research among the universities and the energy industry.</li>
-          <li>Assist in the creation and development of a Florida-based energy technology industry through efforts that would expedite commercialization of innovative energy technologies by taking advantage of the energy expertise within the State University System, high-technology incubators, industrial parks, and industry-driven research centers.</li>
-          <li>Provide a state resource for objective energy systems analysis.</li>
-          <li>Develop education and outreach programs to prepare a qualified energy workforce and informed public.</li>
-      
-        </ul>
-      </div>
-    
-      <div class="col-md">  
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/YA2ofbdd-G8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        
-        <button class="btn"><i class="fas fa-download"></i> Download Brochure</button>
-      </div>
-    </div>
+    <h2>Data Charts</h2>
+    <!--Divs that hold the charts-->
+    <div id="chart_div"></div>
+    <div id="chart_div2"></div>
+
   </main>
   
   <footer>
-    <a class="social twitter-share-button" href="https://twitter.com/intent/tweet?text=Check%20out%20FESC%20today!%20https%3A%2F%2Farwendrain.github.io%2Fflorida-energy-project%2F">Tweet</a>
+    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Check%20out%20FESC%20today!%20https%3A%2F%2Farwendrain.github.io%2Fflorida-energy-project%2F">Tweet</a>
     
     <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Farwendrain.github.io%2Fflorida-energy-project%2F&layout=button&size=small&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
     
-    <a class="social tumblr-share-button" href="https://www.tumblr.com/share"></a>
+    <a class="tumblr-share-button" href="https://www.tumblr.com/share"></a>
     <script id="tumblr-js" async src="https://assets.tumblr.com/share-button.js"></script>
   </footer>
   
