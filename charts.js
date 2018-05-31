@@ -152,3 +152,10 @@ function drawChart2() {
 
   chart.draw(data, options);
 }
+
+new Vue({
+  el: '#chart_div',
+  data: {
+    selected: ''
+  }
+})
