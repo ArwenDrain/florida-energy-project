@@ -5,8 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-  <!-- Vue.js framework -->
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   
 <!--  Google Charts -->
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -72,18 +70,9 @@ the Nation and the World">
     <main>
       <h2>Data Charts</h2>
       <!--Divs that hold the charts-->
-      <select v-model="selected">
-        <option disabled value="">Please select a chart</option>
-        <option value="<div id='chart_div'></div>">Electricity Total Consumption</option>
-        <option value="<div id='chart_div2'></div>">Renewable Energy Production</option>
-      </select>
-<span>Selected: {{ selected }}</span>
-<!--
-      <div id="chart_div"></div>
-      <div id="chart_div2"></div>
--->
-      
-
+        <div id='chart_div'></div>
+        <div id='chart_div2'></div>
+        <div id="response"></div>
     </main>
 
     <footer>
